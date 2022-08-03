@@ -1,0 +1,67 @@
+h3{
+  margin-top: 0;
+  height: fit-content;
+  width: fit-content;
+}
+
+h4{
+  height: fit-content;
+  width: fit-content;
+}
+
+.addbutton {
+    border-radius: 12px;
+    border-color: aliceblue;
+    width: 20rem;
+    height: 3rem;
+    position: absolute;
+    right: 0;
+    font-size: 1.5rem;
+    color: azure;
+    background: linear-gradient(147deg, rgba(109,1,255,1) 12%, rgba(87,122,252,1) 37%, rgba(151,45,253,1) 75%);
+    margin-bottom:2rem;
+  }
+  .input {
+    width: 20rem;
+    height: 1.7rem;
+  font-size: 1rem;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  border-radius: 5px;
+  
+  }
+  .add_button_in_model {
+    border-radius: 12px;
+    border-color: aliceblue;
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    color: azure;
+    background: linear-gradient(147deg, rgba(109,1,255,1) 12%, rgba(87,122,252,1) 37%, rgba(151,45,253,1) 75%);
+    margin: 0.5rem;
+  }
+  .product_card_wrapper{
+
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+  }
+  .productCard{
+
+    width: 17rem;
+    height: 20rem;
+    margin:1rem
+  }
+  .update_delete_pic{
+    padding:1rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    float: left;
+
+  }
+  .img{
+    height: 10rem;
+    width: 17rem;
+  }

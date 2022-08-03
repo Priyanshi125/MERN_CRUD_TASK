@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main_category_button {
+  border-radius: 12px;
+  border-color: aliceblue;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: azure;
+  background: linear-gradient(90deg, rgba(10,0,173,1) 0%, rgba(27,27,231,1) 15%, rgba(3,139,207,1) 53%, rgba(0,212,255,1) 92%);}
+.main_product_button {
+  border-radius: 12px;
+  border-color: aliceblue;
+  width: 15rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  color: azure;
+  background: linear-gradient(90deg, rgba(10,0,173,1) 0%, rgba(27,27,231,1) 15%, rgba(3,139,207,1) 53%, rgba(0,212,255,1) 92%); 
+}
+
+.buttons_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
